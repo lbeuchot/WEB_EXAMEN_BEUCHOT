@@ -1,0 +1,52 @@
+// Margin
+
+.partie-reals {
+  margin-top: 30px;
+}
+
+// Mise en place du cover size et de la taille / placement
+
+.row .ialu {
+  object-fit: cover;
+  float: right;
+}
+
+.partie-reals img {
+  height: 400px;
+  object-fit: cover;
+}
+
+// Responsive tab
+
+@media screen and (max-width: 1024px) {
+
+  .ialu {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .real-3 {
+    display: none;
+  }
+}
+
+// Responsive mobile
+
+@media screen and (max-width: 640px) {
+
+  .real-2 {
+    display: none;
+  }
+
+  .ialu {
+    height: 200px;
+    width: 100%;
+  }
+
+  .partie-reals img {
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+}

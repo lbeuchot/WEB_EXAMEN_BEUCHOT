@@ -1,0 +1,36 @@
+// Taille des images
+
+.garanties-qualite img {
+  height: 70px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+// Margin titre
+
+.garanties-qualite h2 {
+margin-top: 20px;
+}
+
+// Stylisation
+
+.garanties-qualite {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+// Responsive
+
+@media screen and (max-width: 640px) {
+
+  .garanties-qualite p {
+    font-size: 12px;
+  }
+
+  .garanties-qualite img {
+    height: 50px;
+  }
+
+}

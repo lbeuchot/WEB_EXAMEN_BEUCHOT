@@ -1,0 +1,76 @@
+// Background du footer
+
+footer {
+  background-color: #ebed49;
+}
+
+// Adapter la taille du footer à tout l'écran
+
+.footer {
+  max-width: 100%;
+}
+
+// Retrait du trait au dessus du footer
+
+.footer-container {
+  border-top: none;
+}
+
+// Stylisation du copyright et alignement
+
+.tdr p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-transform: uppercase;
+  font-size: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+// Placement du logo
+
+.logo-footer {
+  text-align: center;
+}
+
+// Placement des réseaux
+
+.reseaux-sociaux {
+  margin-top: 10px;
+}
+
+// Colorisation des médias
+
+.fa-facebook {
+  color: #3b5998;
+  font-size: 20px;
+}
+
+.fa-google-plus-square {
+  color: #dc4e41;
+}
+
+.fa-twitter-square {
+  color: #55acee;
+}
+
+// Adaptation responsive du footer
+
+@media screen and (max-width: 1024px) {
+
+  .logo-footer {
+    text-align: center;
+  }
+
+  .tdr p {
+    float: none;
+    text-align: center;
+  }
+
+  .reseaux-sociaux {
+    float: none;
+    text-align: center;
+  }
+
+}

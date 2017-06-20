@@ -1,0 +1,63 @@
+// Tailles de typos de base
+
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+p, b {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: black;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 25px;
+  text-transform: none;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  line-height: 1.7;
+}
+
+b {
+  font-weight: 800;
+}
+
+// Style des hover a
+
+a:hover {
+  color: black;
+}
+
+a:hover active {
+  color: black;
+}
+
+// Taille des typos responsive
+
+@media screen and (max-width: 640px) {
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+}
