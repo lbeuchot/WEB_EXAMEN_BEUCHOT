@@ -77,3 +77,47 @@ nav.site-navigation.top-bar li a:hover {
   }
 
 }
+
+// Style du sous menu
+
+.menu .active > a {
+  color: black;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: none;
+  border: none;
+}
+
+.desktop-menu li.is-dropdown-submenu-parent.active > a::after {
+  border-color: none;
+  border: none;
+}
+
+// Suppression du padding
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+  padding-right: 0px;
+}
+
+
+.top-bar, .top-bar ul {
+  background-color: #ebed49;
+}
+
+.is-dropdown-submenu {
+  border: none;
+  padding-bottom: 20px;
+}
+// Sous menu
+
+.menu.vertical > li {
+  padding-right: 0px;
+  background-color: #ebed49;
+}
+
+// Suppression flèche du bas menu déroulant
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  display: none;
+}

@@ -58,10 +58,26 @@ Chaque projet est unique et est créé en fonction du client.</p>
 		</div>
 
 
-    <div class="row">
-      <div class="large-12 columns">
-      </div>
-    </div>
+		<div class="row conteneur-articles-recents">
+	      <?php
+	        $args = array( 'numberposts' => 4, 'post_status'=>"publish",'post_type'=>"post",'orderby'=>"post_date");
+	        $postslist = get_posts( $args );
+	        echo '<ul id="latest_posts">';
+	         foreach ($postslist as $post) :  setup_postdata($post); ?>
+	         <div class="row">
+	           <div class=" the-thumbnail large-6 medium-6 small-12 columns">
+	             <?php the_post_thumbnail(); ?>
+	           </div>
+	           <div class="large-6 medium-6 small-12 columns">
+	             <h2><a href="<?php the_permalink(); ?>" title="<?php the_title();?>"> <?php the_title(); ?></a></h2><br>
+	            <div class="extrait-article">
+								<?php echo custom_field_excerpt(); ?>
+							</div>
+	           </div>
+	         </div>
+	        <?php endforeach; ?>
+	 </ul>
+	    </div>
 
 		<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
 		<div class="entry-content">
