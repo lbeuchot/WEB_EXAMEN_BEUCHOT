@@ -1,0 +1,79 @@
+// Alignement du menu
+
+.menu {
+  float: right;
+}
+
+// Custom de la nav
+
+nav.site-navigation.top-bar {
+  height: 100px;
+  background-color: #ebed49;
+  padding-top: 10px;
+}
+
+nav.site-navigation.top-bar li a {
+  background-color: #ebed49;
+}
+
+// Hover menu
+
+nav.site-navigation.top-bar li a:hover {
+  text-decoration: underline;
+}
+
+// Ajout de la font et custom de celle-ci
+
+.menu > li > a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+// Custom du logo
+
+.class-logo img {
+  width: 50%;
+  height: auto;
+}
+
+// Suppression du logo en mobile
+
+
+@media screen and (max-width: 640px) {
+
+  .top-bar-title {
+    display: none;
+  }
+
+  .top-bar {
+    height: 50px;
+  }
+
+  .menu {
+    float: none;
+    padding-bottom: 20px;
+  }
+
+ .columns {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  nav.site-navigation.top-bar {
+    height: 0px;
+  }
+
+  div.site-title-bar.title-bar {
+    background-color: #ebed49;
+    padding-top: 10px;
+  }
+
+  .top-bar, .top-bar ul {
+    background-color: #ebed49;
+  }
+
+}
