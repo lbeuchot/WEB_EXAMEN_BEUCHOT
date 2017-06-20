@@ -1,0 +1,129 @@
+// Margin image à la une
+
+.image-a-la-une {
+  margin-top: 20px;
+}
+
+// Taille max padding
+
+.fullwidth {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// Placement bouton
+
+.button-commander a {
+  float: right;
+}
+
+// Style bouton
+
+.button {
+  background-color: #ebed49;
+  color: black;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+
+
+// Hover bouton
+
+.button:hover {
+  background-color: #3b3b3b;
+}
+
+
+// Background commande
+
+.background-commande {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100px;
+}
+
+// H1
+
+.background-commande h1 {
+  margin-top: 10px;
+}
+
+// Placement matériaux
+
+.materiaux {
+  margin-top: 20px;
+}
+
+.materiaux h2 {
+  margin-bottom: 20px;
+}
+
+.materiaux div p {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.champs_un img {
+  padding-bottom: 50px;
+}
+
+.champs_un p {
+  margin-top: 10%;
+}
+.champs_deux img {
+  padding-bottom: 50px;
+}
+
+.champs_deux p {
+  margin-top: 10%;
+}
+
+.champs_trois img {
+  padding-bottom: 50px;
+}
+
+.champs_quatre img {
+  padding-bottom: 50px;
+}
+
+.champs_quatre p {
+  margin-top: 10%;
+}
+
+.champs_trois p {
+  margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+  .button-commander a {
+    float: left;
+  }
+
+  .background-commande {
+    height: 160px;
+  }
+
+  .background-commande h1 {
+    margin-left: 20px;
+  }
+
+  .button {
+    margin-left: 20px;
+  }
+
+  .materiaux img {
+    width: 20%;
+  }
+
+  .materiaux div p {
+    font-size: 18px;
+  }
+
+}
