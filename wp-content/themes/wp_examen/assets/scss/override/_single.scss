@@ -58,6 +58,7 @@
 
 .materiaux {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .materiaux h2 {
@@ -66,9 +67,10 @@
 
 .materiaux div p {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
+
 
 .champs_un img {
   padding-bottom: 50px;
@@ -116,16 +118,33 @@
     margin-left: 20px;
   }
 
-  .button {
-    margin-left: 20px;
-  }
-
   .materiaux img {
     width: 20%;
   }
 
-  .materiaux div p {
-    font-size: 18px;
+  .materiaux p {
+    font-size: 8px;
   }
+
+  .materiaux {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .background-commande {
+    text-align: center;
+  }
+
+  .button {
+    width:100%;
+  }
+  .button-commander {
+    text-align: center;
+  }
+
 
 }

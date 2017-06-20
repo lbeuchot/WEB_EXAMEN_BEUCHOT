@@ -20,11 +20,11 @@ get_header(); ?>
 
 		<div class="row background-commande">
 
-			<div class="large-6 medium-6 small-12 columns">
+			<div class="large-6 medium-12 small-12 columns">
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 			</div>
 
-			<div class="large-6 medium-6 small-12 columns button-commander">
+			<div class="large-6 medium-12 small-12 columns button-commander">
 				<a href="#" class="button">COMMANDER</a>
 			</div>
 
